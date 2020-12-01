@@ -26,7 +26,7 @@ class App extends Component {
 const Header = () => {
   return (
     <header className="App-header">
-      <Link to="/"><h1>🦐 Exotic Fish Supplies</h1></Link>
+      <Link to="/"><h1>Exotic Fish Supplies</h1></Link>
       <div className="right">
         <button className="snipcart-checkout snipcart-summary">
           <i className="fa fa-shopping-cart"></i> Checkout (<span className="snipcart-total-items"></span>)
